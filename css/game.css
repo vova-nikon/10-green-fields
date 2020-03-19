@@ -1,0 +1,24 @@
+.game-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(6);
+}
+
+.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  margin: 1px;
+  line-height: 10vh;
+  cursor: pointer;
+}
+
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+
+.miss {
+  background-color: red;
+}
